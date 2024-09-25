@@ -1,0 +1,210 @@
+
+:root {
+
+    /** 
+     * colors
+     */
+  
+    --text-main: #161F38;
+    --text-light: #575861;
+    --gary-lighter: #EFEFEF;
+    --sucess-color: #96EA8C;
+    --error-color: #FF9B84; 
+    --accent-color: #0066FF;
+    --light-gray: hsl(0, 0%, 80%);
+    --white: hsl(0, 0%, 100%);
+    --body-bg: #fff;
+    --footer-bg: #f9f9f9;
+    --black: hsl(0, 0%, 0%);
+  
+    /**
+     * typography
+     */
+  
+    --ff-roboto: 'Roboto', sans-serif;
+  
+  
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+  
+  
+    /**
+     * shadow
+     */
+  
+    --shadow: 0 15px 40px 5px rgba(132, 132, 133, 0.15);
+  
+
+  
+    /**
+     * transition
+     */
+  
+    --transition: 0.25s ease;
+  }
+
+
+####### HOME
+
+--INTRO TITLE ->  In depth resource on UI, UX and everything in between.
+
+--INTOR DESCRITPION -> Inros is a modern classic blog theme for Ghost. Use this 
+                       theme for company blog, magazine, niche or personal blog.
+
+
+
+
+
+####### FEATURED POST
+
+***** FEATURED POST TITLE *****
+
+--1 -> Self-observation is the first step of inner unfolding
+
+--2 -> The mind and body are not separate. what affects one, affects the other
+
+--3 -> TNew tech innovation for low cost ocean cleanup
+
+--4 -> All the money in the world can't buy you back good health
+
+--5 -> With age, comes wisdom. With travel, comes understanding
+
+--6 -> Fear is only temporary, regrets last forever
+
+
+
+***** FEATIURED POST DESCRIPTION *****
+
+--1 -> Inros is a modern classic blog theme for Ghost. Use this 
+       theme for company blog, magazine, niche or personal blog.
+
+
+
+
+
+
+
+
+####### RECENT POST
+
+
+***** RECENT POST TITLE *****
+
+--1 -> Autumn is a second spring when every leaf is a flower
+
+--2 -> Never let your memories be greater than your dreams
+
+--3 -> Dramatically improve your cooking using just your imagination
+
+--4 -> Self-observation is the first step of inner unfolding
+
+--5 -> It is during our darkest moments that we must focus to see the light
+
+--6 -> Bangladesh has developed plastic alternative using jute
+
+--7 -> I do not stick to rules when cooking. I rely on my imagination
+
+--8 -> The mind and body are not separate. what affects one, affects the other
+
+--9 -> Amphibious drone are being used to send medicine to flooded area
+
+
+***** RECENT POST DESCRIPTION *****
+
+--1 -> She then expatiated very warmly upon the advantages I should reap 
+       from her plan; talked in a high style of my future grandeur; 
+       assured me how heartily I should despise almost every body and every 
+       thing I had hitherto seen; predicted my marrying into some family of the
+
+
+
+--2 -> Before long the searchlight discovered some distance away a schooner 
+       with all sails set, apparently the same vessel which had been noticed earlier in the evening. 
+       The wind had by this time backed to the east, and there was a shudder amongst the watchers on
+
+
+
+--3 -> You cannot too assiduously attend to Madame Duval herself; but I 
+       would wish you to mix as little as possible with her associates, who are not 
+       likely to be among those whose acquaintance would reflect credit upon you.
+
+
+
+--4 -> Almost instantly the whole truth of the transaction seemed to rush upon her
+       mind, and her wrath was inconceivably violent. She asked me a thousand questions
+       in a breath; but, fortunately, was too vehement to attend to my embarrassment,
+       which must otherwise have betrayed my knowledge of the deceit. Revenge
+
+
+--5 -> Mina took a growing interest in everything and I was rejoiced to see that the exigency 
+       of affairs was helping her to forget for a time the terrible experience of the night. 
+       She was very, very pale
+
+
+--6 -> Dr. Johnson, as usual, spoke contemptuously of Colley Cibber. 
+       'It is wonderful that a man, who for forty years had lived with the great and the witty, 
+       should have acquired so ill the talents of conversation: and he had but half to furnish; 
+       for one half of what he said was oaths.
+
+
+
+--7 -> I walked down to the station with them, and then wandered through the streets of the little town, 
+       finally returning to the hotel, where I lay upon the sofa and tried to interest myself in a yellow-backed novel. 
+       The puny plot of the story was so thin, however, when compared to the deep mystery
+
+
+
+--8 -> his recital put the Captain into an ecstasy; he went from the lady to the gentleman, 
+       and from the gentleman to the lady, to enjoy alternately the sight of their distress. 
+       He really shouted with pleasure; and, shaking Monsieur Du Bois strenuously by the hand
+
+
+
+--9 -> Another tragedy. Had single watch to-night, as crew too tired to double. 
+       When morning watch came on deck could find no one except steersman. Raised outcry, 
+       and all came on deck. Thorough search, but no one found. Are now without second mate, 
+       and crew in a panic.
+
+
+
+####### FOOTER
+
+--FOOTER DESCRIPTION -> Inros is a modern classic blog theme for Ghost. Use this theme for company blog, magazine, niche or personal blog.
+
+
+
+
+
+
+/*=============== DARK LIGHT THEME ===============*/ 
+
+const themeButton = document.getElementById("theme-button")
+const darkTheme = 'dark-theme'
+const iconTheme = 'bx-sun'
+
+// Previously selected topic (if user selected)
+const selectedTheme = localStorage.getItem('selected-theme')
+const selectedIcon = localStorage.getItem('selected-icon')
+
+// We obtain the current theme that the interface has by validating the dark-theme class
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx bx-sun' : 'bx bx-moon'
+
+// We validate if the user previously chose a topic
+if (selectedTheme) {
+  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+  themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme)
+}
+
+// Activate / deactivate the theme manually with the button
+themeButton.addEventListener('click', () => {
+    // Add or remove the dark / icon theme
+    document.body.classList.toggle(darkTheme)
+    themeButton.classList.toggle(iconTheme)
+    // We save the theme and the current icon that the user chose
+    localStorage.setItem('selected-theme', getCurrentTheme())
+    localStorage.setItem('selected-icon', getCurrentIcon())
+})

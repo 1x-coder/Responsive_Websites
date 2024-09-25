@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inros - Multipurpose Ghost Blog</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="asset/light-theme-logo.svg" alt="" class="logo_light-mode">
+                <img src="asset/dark-theme-logo.svg" alt="" class="logo_dark-mode">
+            </a>
+
+            <nav class="nav_menu">
+                <ul class="nav_list">
+                    <li>
+                        <a href="#" class="nav_link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link">Elements</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link">Membership</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link">Tags</a>
+                    </li>
+                </ul>
+
+                <ul class="header_actions">
+                    <li>
+                        <a href="#" class="nav_link">Sign in</a>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-sm">
+                            Sign Up
+                        </button>
+                    </li>
+
+                    <li class="header_button-wrap">
+                        <button class="search-button">
+                            <i class='bx bx-search'></i>
+                        </button>
+                        <button class="dark_mode-button">
+                            <i class='bx bx-moon' id="theme-button"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="nav_toggle">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="container">
+                <div class="home_wrap">
+                    <h1 class="intro_title heading-large">
+                        In depth resource on UI, UX and everything in between.
+                    </h1>
+                    <p class="intro_description">
+                        Inros is a modern classic blog theme for Ghost. Use this 
+                       theme for company blog, magazine, niche or personal blog.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured_posts">
+            <div class="container">
+                <h4 class="h4 sectoin_title">Featured Posts</h4>
+
+                <div class="featured-post_container grid">
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/home_1.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Lifestyle</a>
+                                </div>
+
+                                <h2 class="post_title">
+                                    <a href="#">
+                                        Self-observation is the first step of inner unfolding
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Almose Instanly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconcievably 
+                                    violen. She asked me a thousand questions in a breath; but, fortunately, was too vehement to attend to my embarrassement
+                                    which must otherwise have betrayed my knowledge to the deceit. Revenge
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_1.jpeg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Biswajit Saha</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">3 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items grid">
+                        <div class="post_card post-small">
+                            <div class="post_banner">
+                                <img src="asset/home_2.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Health</a>
+                                </div>
+
+                                <h2 class="h4 post_title">
+                                    <a href="#">
+                                        The mind and body are not separate. what affects one, affects the other
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="post_card post-small">
+                            <div class="post_banner">
+                                <img src="asset/home_3.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #2D841F">
+                                    <a href="#">Technology</a>
+                                </div>
+
+                                <h2 class="h4 post_title">
+                                    <a href="#">
+                                        TNew tech innovation for low cost ocean cleanup
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="post_card post-small">
+                            <div class="post_banner">
+                                <img src="asset/home_4.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Health</a>
+                                </div>
+
+                                <h2 class="h4 post_title">
+                                    <a href="#">
+                                        All the money in the world can't buy you back good health
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="post_card post-small">
+                            <div class="post_banner">
+                                <img src="asset/home_5.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Nature</a>
+                                </div>
+
+                                <h2 class="h4 post_title">
+                                    <a href="#">
+                                        With age, comes wisdom. With travel, comes understanding
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="post_card post-small">
+                            <div class="post_banner">
+                                <img src="asset/home_6.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #E10689">
+                                    <a href="#">Travel</a>
+                                </div>
+
+                                <h2 class="h4 post_title">
+                                    <a href="#">
+                                        Fear is only temporary, regrets last forever
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent_post">
+            <div class="container">
+                <h4 class="h4 section_title">
+                    Most recent posts 
+                </h4>
+
+                <div class="recent_post-container grid">
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_1.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Nature</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Autumn is a second spring when every leaf is a flower
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    She then expatiated very warmly upon the advantages I should reap 
+                                    from her plan; talked in a high style of my future grandeur; 
+                                    assured me how heartily I should despise almost every body and every 
+                                    thing I had hitherto seen; predicted my marrying into some family of the
+
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_2.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Harini Banerjee</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_2.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #E10689;">
+                                    <a href="#">Travel</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Never let your memories be greater than your dreams
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Before long the searchlight discovered some distance away a schooner 
+                                    with all sails set, apparently the same vessel which had been noticed earlier in the evening. 
+                                    The wind had by this time backed to the east, and there was a shudder amongst the watchers on
+
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_3.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Apurba Talkudar</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_3.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #B43ADF;">
+                                    <a href="#">Food</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Dramatically improve your cooking using just your imagination
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    You cannot too assiduously attend to Madame Duval herself; but I 
+                                    would wish you to mix as little as possible with her associates, who are not 
+                                    likely to be among those whose acquaintance would reflect credit upon you.
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_2.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Harini Banerjee</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_4.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Lifestyle</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Self-observation is the first step of inner unfolding
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Almost instantly the whole truth of the transaction seemed to rush upon her
+                                    mind, and her wrath was inconceivably violent. She asked me a thousand questions
+                                    in a breath; but, fortunately, was too vehement to attend to my embarrassment,
+                                    which must otherwise have betrayed my knowledge of the deceit. Revenge
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_1.jpeg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Biswahit Saha</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">3 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_5.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #9D6805;">
+                                    <a href="#">Inspiration</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        It is during our darkest moments that we must focus to see the light
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Mina took a growing interest in everything and I was rejoiced to see that the exigency 
+                                    of affairs was helping her to forget for a time the terrible experience of the night. 
+                                    She was very, very pale
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_4.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Surbhi Gupta</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_6.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #2D842F;">
+                                    <a href="#">Technology</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Bangladesh has developed plastic alternative using jute
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Dr. Johnson, as usual, spoke contemptuously of Colley Cibber. 
+                                    'It is wonderful that a man, who for forty years had lived with the great and the witty, 
+                                    should have acquired so ill the talents of conversation: and he had but half to furnish; 
+                                    for one half of what he said was oaths.
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_5.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Ishan Sharma</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_7.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #B43ADF">
+                                    <a href="#">Food</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        I do not stick to rules when cooking. I rely on my imagination
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    I walked down to the station with them, and then wandered through the streets of the little town, 
+                                    finally returning to the hotel, where I lay upon the sofa and tried to interest myself in a yellow-backed novel. 
+                                    The puny plot of the story was so thin, however, when compared to the deep mystery
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_1.jpeg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Biswajit Saha</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_8.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap">
+                                    <a href="#">Health</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        The mind and body are not separate. what affects one, affects the other
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    his recital put the Captain into an ecstasy; he went from the lady to the gentleman, 
+                                    and from the gentleman to the lady, to enjoy alternately the sight of their distress. 
+                                    He really shouted with pleasure; and, shaking Monsieur Du Bois strenuously by the hand
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_2.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Harini Banerjee</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_items">
+                        <div class="post_card grid">
+                            <div class="post_banner">
+                                <img src="asset/post_9.jpg" alt="" class="img_cover">
+                            </div>
+
+                            <div class="post_info">
+                                <div class="tag-wrap" style="--accent-color: #2D841F;">
+                                    <a href="#">Technology</a>
+                                </div>
+
+                                <h2 class="h3 post_title">
+                                    <a href="#">
+                                        Amphibious drone are being used to send medicine to flooded area
+                                    </a>
+                                </h2>
+
+                                <p class="post-description">
+                                    Another tragedy. Had single watch to-night, as crew too tired to double. 
+                                    When morning watch came on deck could find no one except steersman. Raised outcry, 
+                                    and all came on deck. Thorough search, but no one found. Are now without second mate, 
+                                    and crew in a panic.
+                                </p>
+
+                                <div class="post-meta_wrap">
+                                    <div class="author-avatar_wrap">
+                                        <a href="#" class="author-image">
+                                            <img src="asset/user_5.jpg" alt="" class="img_cover">
+                                        </a>
+                                    </div>
+                                    <div class="meta-info">
+                                        <h3 class="author_name">Ishan Sharma</h3>
+                                        <div class="date-time">
+                                            <time class="post-date">May 02, 2021</time>
+                                            <span class="rea-time">4 min read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-lg">
+                    <span>Show more posts</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="email-subs_wrap">
+                    <div class="text_wrap">
+                        <h2 class="h1 email-subs_title">
+                            Subscribe to  Inros
+                        </h2>
+                        <p class="email-subs_description">
+                            Get all the latest posts delivered straight to your inbox.
+                        </p>
+                    </div>
+
+                    <div class="form_wrap">
+                        <form action="" class="members-form">
+                            <div class="form-field_wrap">
+                                <input type="text" placeholder="Your name" class="form_field">
+                                <input type="text" placeholder="Your email address" class="form_field">
+                            </div>
+                            <button class="btn btn-lg" type="submit">
+                               <span>Subscribe</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="asset/light-theme-logo.svg" alt="" class="logo_light-mode">
+                        <img src="asset/dark-theme-logo.svg" alt="" class="logo_dark-mode">
+                    </a>
+                    <div class="footer_description">
+                        Inros is a modern classic blog theme for Ghost. Use this theme for company blog, magazine, niche or personal blog.
+                    </div>
+    
+                    <div class="social-links_wrap">
+                        <a href="#" class="social_link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="#" class="social_link">
+                            <i class='bx bxl-facebook' ></i>
+                        </a>
+                        <a href="#" class="social_link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                        <a href="#" class="social_link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_list">
+                    <div class="footer_items">
+                        <h3 class="h6 footer_title">Features</h3>
+    
+                        <ul class="footer_links-list">
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Elements
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Tags
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Authors
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    404 page
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer_items">
+                        <h3 class="h6 footer_title">Members</h3>
+    
+                        <ul class="footer_links-list">
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Membership
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Sign in
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Sign up
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Account
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer_items">
+                        <h3 class="h6 footer_title">About</h3>
+    
+                        <ul class="footer_links-list">
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Tag page
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Author page
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="footer_links-items">
+                                <a href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2023 Inros - All rights reserved. Published with Ghost, Powered By Abdullah
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

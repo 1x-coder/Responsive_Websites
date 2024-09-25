@@ -1,0 +1,61 @@
+========== WEBSITE TITLE ==========
+Grocery website using html and css
+
+========== HOME ==========
+.home__subtitle
+More than Faster
+
+.home__title
+Groceries delivered in as little as 2 hours
+
+.home__description
+Grocen atssures fresh grocery every morning to your family without getting out in this pandemic.
+
+========== SERVICES ==========
+.section__subtitle | .section__title
+What we Serve
+Fruit And Vegetable Delivered To Your Home
+
+.services__title | .services__subtitle
+Free shipping
+Enjoy Order in a hand using the fresness of groceries
+
+15 days returns
+Order in a handy way using the freshness of the groceries.
+
+Secure checkout
+If you get rotten items - return immediately to us.
+
+
+========== FEATURE1 ==========
+.section__subtitle | .section__title
+WHY CHOOSE US
+Find Favorites And Discover New Ones
+
+.description
+At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesen voluptatum deleniti.
+
+========== FEATURE2 ==========
+.section__subtitle | .section__title
+HOME DELIVERY
+Sit At Home We Will Take Care Your Order
+
+.description
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+
+========== CTA ==========
+.section__subtitle | .section__title
+Download our app
+Get The Groceries App Order More Easily.
+
+.description
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+
+========== FOOTER ==========
+.footer__description
+Fast delivery, which is active all over the world, serves with many transportation vehicles.
+
+Subscribe to our weekly Newsletter and receive updates via email.
+
+.footer__copy
+All rigths reserved @ Crypticalcoder 2022

@@ -1,0 +1,143 @@
+Home
+Services
+About
+Portfolio
+Contact
+
+
+1. Home
+------------------------------------------------------------------
+
+Hi, I'm <span>Eric.</span><br />
+Web Designer
+
+Pellentesque commodo nulla pharetra eu posuere. Ut augue et pretium et nunc vel
+tellus lectus. Imperdiet mattis duis lacus eget. Eu gravida sociis orci ac amet. 
+Mauris fringilla tincidunt id sit ullamcorper gravida nunc vulputate nec.
+
+Hire Me
+
+
+2. Services
+------------------------------------------------------------------
+
+01
+Web Design
+
+Suspendisse proin purus gravida porta convallis sit sem fames ut. 
+Eget scelerisque amet libero dolor sagittis dignissim mi. 
+
+Read More
+
+02
+UI/UX Design
+
+Suspendisse proin purus gravida porta convallis sit sem fames ut. 
+Eget scelerisque amet libero dolor sagittis dignissim mi. 
+
+Read More
+
+03
+Animation
+
+Suspendisse proin purus gravida porta convallis sit sem fames ut. 
+Eget scelerisque amet libero dolor sagittis dignissim mi. 
+
+Read More
+
+3. About
+------------------------------------------------------------------
+
+About Me
+
+Convallis sed at risus scelerisque nulla enim mauris pellentesque. Vitae elementum pharetra leo nulla orci metus metus eu. Eget blandit leo ullamcorper elit pretium aenean diam amet. Viverra sollicitudin nisi lectus luctus rhoncus cursus. Orci facilisis nec tellus at. Ut vitae egestas purus tortor. Massa venenatis sagittis adipiscing vestibulum magna nunc. Nullam vitae diam lectus quisque volutpat sagittis aliquet in purus. Ac ac cursus duis suspendisse tempor pellentesque aliquet. Imperdiet neque quam nisi eu lectus purus diam. 
+
+Download CV 
+
+08+
+Years of Experience
+
+45+
+Projects Completed
+
+28+
+Happy Clients
+
+4. Portfolio
+------------------------------------------------------------------
+
+Football App
+
+Consequat id ligula diam adipiscing amet. 
+Vestibulum elit elit sapien molestie.
+
+Crypto Website
+
+Consequat id ligula diam adipiscing amet. 
+Vestibulum elit elit sapien molestie.
+
+Restaurant Website
+
+Consequat id ligula diam adipiscing amet. 
+Vestibulum elit elit sapien molestie.
+
+
+5. Testimonials 
+------------------------------------------------------------------
+Aliquet enim neque fringilla euismod vel tellus sed aliquam nulla.
+Vitae cursus quis mauris justo at quam cursus consectetur. 
+Urna convallis nunc lorem nunc. Sed iaculis non sed nisi lobortis lacus aenean 
+nulla cras.
+
+David Brown | Jeremiah Turay | Elen Harris
+Client
+
+
+6. Contact 
+------------------------------------------------------------------
+
+Get in Touch
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, 
+distinctio blanditiis nemo quas quod, temporibus laboriosam sed 
+quam ad sunt suscipit tempore commodi qui modi aliquam et sit ducimus.
+
+
+Email
+ericbradley@support.com
+
+Call
+(416) 489-2494
+
+WhatsApp
+(416) 489-1030
+
+6. Footer
+------------------------------------------------------------------
+
+Eric Bradley
+
+
+Navigation
+
+Home
+Services
+Portfolio
+About
+
+
+Contact
+
+(416) 489-2494
+ericbradley@support.com
+
+    
+Address
+2480 Yonge St
+Toronto, Canada
+
+
+Copyright 2023 Designed by Luís 
+
+
+

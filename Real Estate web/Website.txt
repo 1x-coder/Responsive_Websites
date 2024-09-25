@@ -1,0 +1,137 @@
+/* Header
+---------------------------------------------------------------------------
+nav__brand
+- RealEstate.
+
+nav__links
+- Home
+- About us
+- Services
+- Properties
+- Contact
+- Login
+
+/* Home section
+---------------------------------------------------------------------------
+home__title
+- Find The Property That
+Suits You The Most.
+
+home__description
+- Lorem ipsum dolor sit amet consectetur. Sit vel curabitur elit molestie suspendisse egestas. Pellentesque ultricies molestie nisl tincidunt sagittis suspendisse fringilla.
+
+Get Started
+
+search__title
+Search what you are looking for
+
+form__input
+- Location
+- Type
+- Price
+
+
+/* About section
+---------------------------------------------------------------------------
+about__title
+- Help You Found Suitable Home is Our Priority.
+
+about__description
+Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas
+mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae
+debitis. Dolorem cupiditate est perferendis iusto.
+
+read more
+
+/* Services section 
+---------------------------------------------------------------------------
+section__title
+Our Special Services
+
+section__description
+Lorem ipsum dolor sit amet consectetur. Sit vel curabitur elit
+molestie suspendisse egestas. 
+
+
+---------------------------------------------------
+service__title
+- Buy Properties
+
+service__descritpion
+- Voluptates nihil et quis omnis et eaque omnis sint aut. 
+Ducimus dolorum aspernatur.
+
+
+---------------------------------------------------
+service__title
+- Sell Properties
+
+service__descritpion
+- Deleniti optio et nisi dolorem debitis. 
+Aliquam nobis est temporibus sunt ab inventore 
+officiis aut voluptatibus.
+
+---------------------------------------------------
+service__title
+- Rent Properties
+
+service__descritpion
+- Autem quod nesciunt eos ea aut amet laboriosam ab.
+Eos quis porro in non nemo ex.
+
+/* Properties section
+---------------------------------------------------------------------------
+section__title
+Our Popular Properties
+
+section__description
+Lorem ipsum dolor sit amet consectetur. Sit vel curabitur elit
+molestie suspendisse egestas. 
+
+256 West Central Park,
+New York
+
+Book Now
+$3,200,000
+
+/* Download App section
+---------------------------------------------------------------------------
+We are now available
+on mobile application
+
+Delectus alias ut incidunt delectus nam placeat in consequatur.
+Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. 
+Cumque fugit earum est quam officiis numquam. Ducimus corporis'
+autem at blanditiis beatae incidunt sunt.
+
+
+/* Contact section
+---------------------------------------------------------------------------
+Are You Interested In
+Working With  Us?
+
+Let's talk
+
+
+/* Footer section
+---------------------------------------------------------------------------
+RealEstate.
+
+Cras fermentum odio eu feugiat lide par naso tierra. 
+Justo eget nada terra videa magna derita valies darta
+donna mare fermentum iaculis eu non diam phasellus.
+
+Services
+- Buy Property
+- Sell  Property
+- Rent Property
+
+
+Company
+- About Us
+- How we work? 
+
+Support
+- FAQs
+- Support Center
+- Contact Us
